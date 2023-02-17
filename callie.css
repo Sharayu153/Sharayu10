@@ -1,0 +1,229 @@
+/*css */
+
+body{
+  margin:0;
+}
+
+.top-background, .appointment-img{
+  background-image:url('img/50.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.menumenu-ul{
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-ul{
+    padding: 10px;
+}
+
+.menu-ul li{
+    display:inline-block;
+    font-variant: small-caps;
+    letter-spacing:3px;
+    padding:10px 30px;
+}
+
+a{
+    border-bottom: 1px solid transparent;
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    border-bottom:1px solid black;
+}
+
+.sticky{
+    background:#0f4c75;
+    position:fixed;
+    width:100%;
+    z-index:100;
+}
+
+.sticky ul{
+    padding:0;
+margin:10px;
+}
+
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    padding:200px;
+    color:white;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px #0f4c75;
+}
+
+.description, .title{
+    font-variant:small-caps;
+    font-size: 30px;
+    margin:20px;
+}
+
+.page-blocks{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title{
+    letter-spacing: 10px;
+    color:#0f4c75;
+}
+
+.design img{
+    height:35px%;
+    max-width 95%;
+    margin:15px;
+}
+
+ .more-designs-btn{
+    background:transparent;
+    border:2px solid #0f4c75;
+    color:#0f4c75;
+    font-weight:300;
+    padding:10px;
+    margin:10px;
+    letter-spacing: 2px;
+}
+
+.more-designs-btn:hover{
+    background:#0f4c75;
+    color:white;
+    transition:all 0.5s;
+}
+
+.flex-block{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.about-us-flex-item{
+    background:#68bec6;
+    color:black;
+    width:20%;
+    padding: 40px;
+    margin: 20px;
+
+}
+.why-us-flex-item{
+    background:#5F9EA0;
+    color:black;
+    width:20%;
+    padding: 40px;
+    margin: 20px;
+}
+
+ .block-label{
+    font-variant:small-caps;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+ }
+
+ .block-description{
+    text-align: justify;
+ }
+
+ .block-number{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+ }
+
+ .appointment-flex-item{
+    background-color: rgb(177, 175, 175);
+    color:white;
+    height:450px
+    width:45%;
+    padding:0px;
+    margin:20 px 0px;
+    overflow:hidden;
+ }
+
+ .appointment-img{
+    background-image:url('img/F.jpg');
+ }
+
+ .appointment-text{
+    padding:200px 20px;
+    font-size:50px;
+    background: rgba(0,0,0,0.5);
+ }
+
+ .appointment-form{
+    padding: 20px;
+ }
+
+ .appointment-form input, textarea{
+    width:60%;
+    max-width:60%;
+    padding: 10px;
+    margin-bottom:20px;
+    outline: none;
+    text-align:center;
+    color:black;
+    font-size: 16px;
+ }
+
+ .appointment-form textarea{
+    height: 100px;
+    max-height: 100px;
+max-width:60%;
+overflow-y:scroll;
+ }
+
+.appointment-btn{
+    border: 2px solid rgb(12, 12, 12);
+    background:rgb(178, 214, 240);
+    color: rgb(60, 53, 53);
+    padding:15px
+    outline:none;
+}
+
+.appointment-btn:hover{
+background: white;
+}
+
+.footer{
+    background:#5F9EA0	;
+    text-align:center;
+    padding: 20px;
+    margin-top:40px;
+}
+
+.locations{
+    color:black;
+    font-size:20px;
+    font-weight: bold;
+    display:inline-block;
+    min-width:27%;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    padding: 20px;
+}
+
+.address{
+    font-weight:lighter;
+    padding:20px;
+    font-size:16px;
+}
+
+.social-media-icons i{
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.copyrights{
+    font-size: 16px;
+    text-align: center;
+    margin:15px;
+}
